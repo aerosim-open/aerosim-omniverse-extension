@@ -1,0 +1,689 @@
+{
+    "entities": {
+        "entity_0": [
+            "actor_properties", "actor_state", "effectors"
+        ],
+        "entity_1": [
+            "actor_properties", "actor_state", "effectors"
+        ],
+        "entity_2": [
+            "actor_properties", "actor_state", "sensor"
+        ],
+        "entity_3": [
+            "actor_properties", "actor_state", "sensor"
+        ]
+    },
+    "resources": {
+        "origin": {
+            "latitude": 29.594656,
+            "longitude": -95.16384722,
+            "altitude": -28.3
+        },
+        "sim_time": {
+            "sec": 0,
+            "nsec": 0
+        }
+    },
+    "components": {
+        "actor_properties": {
+            "entity_0": {
+                "actor_name": "generic_evtol_0",
+                "actor_asset": "generic-aircrafts/GenericEVtol/GenericEVTOL",
+                "parent": ""
+            },
+            "entity_1": {
+                "actor_name": "generic_evtol_1",
+                "actor_asset": "generic-aircrafts/GenericEVtol/GenericEVTOL",
+                "parent": ""
+            },
+            "entity_2": {
+                "actor_name": "rgb_camera_0",
+                "actor_asset": "Sensors/Cameras/RGBCamera",
+                "parent": "entity_1"
+            },
+            "entity_3": {
+                "actor_name": "rgb_camera_1",
+                "actor_asset": "Sensors/Cameras/RGBCamera",
+                "parent": "entity_1"
+            }
+        },
+        "actor_state": {
+            "entity_0": {
+                "pose": {
+                    "transform": {
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                "world_coordinate": {
+                    "ned": {
+                        "north": 0.0,
+                        "east": 0.0,
+                        "down": 0.0
+                    },
+                    "lla": {
+                        "latitude": 29.594656,
+                        "longitude": -95.16384722,
+                        "altitude": -28.3
+                    },
+                    "ecef": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "cartesian": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "origin_lla": {
+                        "latitude": 29.594656,
+                        "longitude": -95.16384722,
+                        "altitude": -28.3
+                    },
+                    "ellipsoid": {
+                        "equatorial_radius": 6378137.0,
+                        "flattening_factor": 0.0033528106647474805,
+                        "polar_radius": 6356752.314245179
+                    }
+                }
+            },
+            "entity_1": {
+                "pose": {
+                    "transform": {
+                        "position": {
+                            "x": 5.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                "world_coordinate": {
+                    "ned": {
+                        "north": 0.0,
+                        "east": 0.0,
+                        "down": 0.0
+                    },
+                    "lla": {
+                        "latitude": 29.594656,
+                        "longitude": -95.16384722,
+                        "altitude": -28.3
+                    },
+                    "ecef": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "cartesian": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "origin_lla": {
+                        "latitude": 29.594656,
+                        "longitude": -95.16384722,
+                        "altitude": -28.3
+                    },
+                    "ellipsoid": {
+                        "equatorial_radius": 6378137.0,
+                        "flattening_factor": 0.0033528106647474805,
+                        "polar_radius": 6356752.314245179
+                    }
+                }
+            },
+            "entity_2": {
+                "pose": {
+                    "transform": {
+                        "position": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": -0.5
+                        },
+                        "orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": -45.0,
+                            "w": 1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                "world_coordinate": {
+                    "ned": {
+                        "north": 0.0,
+                        "east": 0.0,
+                        "down": 0.0
+                    },
+                    "lla": {
+                        "latitude": 29.594656,
+                        "longitude": -95.16384722,
+                        "altitude": -28.3
+                    },
+                    "ecef": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "cartesian": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "origin_lla": {
+                        "latitude": 29.594656,
+                        "longitude": -95.16384722,
+                        "altitude": -28.3
+                    },
+                    "ellipsoid": {
+                        "equatorial_radius": 6378137.0,
+                        "flattening_factor": 0.0033528106647474805,
+                        "polar_radius": 6356752.314245179
+                    }
+                }
+            },
+            "entity_3": {
+                "pose": {
+                    "transform": {
+                        "position": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": -0.5
+                        },
+                        "orientation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 45.0,
+                            "w": 1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        }
+                    }
+                },
+                "world_coordinate": {
+                    "ned": {
+                        "north": 0.0,
+                        "east": 0.0,
+                        "down": 0.0
+                    },
+                    "lla": {
+                        "latitude": 29.594656,
+                        "longitude": -95.16384722,
+                        "altitude": -28.3
+                    },
+                    "ecef": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "cartesian": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "origin_lla": {
+                        "latitude": 29.594656,
+                        "longitude": -95.16384722,
+                        "altitude": -28.3
+                    },
+                    "ellipsoid": {
+                        "equatorial_radius": 6378137.0,
+                        "flattening_factor": 0.0033528106647474805,
+                        "polar_radius": 6356752.314245179
+                    }
+                }
+            }
+        },
+        "effectors": {
+            "entity_0": [
+                {
+                    "id": "rotor_blade_01",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_01",
+                    "pose": {
+                        "transform" : {
+                            "position": {
+                                "x": 3.0643,
+                                "y": 3.147,
+                                "z": 1.8735
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_02",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_02",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": 7.2638,
+                                "y": 3.147,
+                                "z": 1.8735
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_03",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_03",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": 7.2738,
+                                "y": -3.0155,
+                                "z": 2.9894
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_04",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_04",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": -7.2738,
+                                "y": -3.0155,
+                                "z": 1.8735
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_05",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_05",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": -7.2738,
+                                "y": -3.0155,
+                                "z": 2.9894
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_06",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_06",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": -3.0643,
+                                "y": -3.0155,
+                                "z": 2.8769
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_07",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_07",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": -3.0643,
+                                "y": 3.147,
+                                "z": 1.8735
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_08",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_08",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": -7.2738,
+                                "y": 3.147,
+                                "z": 1.986
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                }
+            ],
+            "entity_1": [
+                {
+                    "id": "rotor_blade_01",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_01",
+                    "pose": {
+                        "transform" : {
+                            "position": {
+                                "x": 3.0643,
+                                "y": 3.147,
+                                "z": 1.8735
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_02",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_02",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": 7.2638,
+                                "y": 3.147,
+                                "z": 1.8735
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_03",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_03",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": 7.2738,
+                                "y": -3.0155,
+                                "z": 2.9894
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_04",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_04",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": -7.2738,
+                                "y": -3.0155,
+                                "z": 1.8735
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_05",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_05",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": -7.2738,
+                                "y": -3.0155,
+                                "z": 2.9894
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_06",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_06",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": -3.0643,
+                                "y": -3.0155,
+                                "z": 2.8769
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_07",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_07",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": -3.0643,
+                                "y": 3.147,
+                                "z": 1.8735
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "rotor_blade_08",
+                    "usd_relative_path": "evtol/VTOLGeneric_Armature/rotor_blade_08",
+                    "pose": {
+                        "transform": {
+                            "position": {
+                                "x": -7.2738,
+                                "y": 3.147,
+                                "z": 1.986
+                            },
+                            "orientation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 1.0
+                            },
+                            "scale": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "sensor": {
+            "entity_2": {
+                "sensor_name": "rgb_camera_0",
+                "sensor_type": "rgb_camera",
+                "sensor_parameters": {
+                    "resolution": {
+                        "x": 1920,
+                        "y": 1080
+                    },
+                    "tick_rate": 0.2,
+                    "fov": 90,
+                    "near_clip": 0.1,
+                    "far_clip": 1000.0
+                }
+            },
+            "entity_3": {
+                "sensor_name": "rgb_camera_1",
+                "sensor_type": "rgb_camera",
+                "sensor_parameters": {
+                    "resolution": {
+                        "x": 1920,
+                        "y": 1080
+                    },
+                    "tick_rate": 0.2,
+                    "fov": 90,
+                    "near_clip": 0.1,
+                    "far_clip": 1000.0
+                }
+            }
+        }
+    }
+}
